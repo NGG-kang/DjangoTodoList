@@ -1,0 +1,2 @@
+# DjangoTodoList
+Django Practice
