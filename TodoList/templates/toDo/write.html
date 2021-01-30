@@ -1,0 +1,6 @@
+
+<form action="{% url 'toDo:writetoDo' %}" method="POST">
+    {% csrf_token %}
+<div>할 일</div><input type="textarea" name="todo" />
+<input type="submit" value="작성"/>
+</form>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        {% block content %}
+        {% if todo %}
+        <div name="id">{{ todo.id }}</div>
+        <div name="toDo">{{ todo.toDo }}</div>
+        <div name="pub_date">{{ todo.pub_date }}</div>
+        <div name="author">{{ todo.author }}</div>
+        {% else %}
+        <h1>없음</h1>
+        {% endif %}
+        {% endblock %}
+
+    </body>
+</html>
