@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a1a9e67-cbbe-4a73-b1d5-db07db34ac81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TodoList/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoList/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toDo/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/toDo/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toDo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/toDo/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/toDo/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/toDo/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/toDo/modify.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/toDo/modify.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toDo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/toDo/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toDo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/toDo/views.py" afterDir="false" />
     </list>
@@ -27,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Full-Stack-practice/Full-Stack-practice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

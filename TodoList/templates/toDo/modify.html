@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        {% block content %}
+        {% if todo %}
+        <form action="{% url 'toDo:modifytoDo' todo.id %}" method="POST">
+            {% csrf_token %}
+            <textarea name="id">{{ todo.id }}</textarea>
+            <textarea name="toDo">{{ todo.toDo }}</textarea>
+            <div name="pub_date">{{ todo.pub_date }}</div>
+            <div name="author">{{ todo.author }}</div>
+            <input type="submit" value="수정" />
+        </form>
+        {% else %}
+        <h1>없음</h1>
+        {% endif %}
+        {% endblock %}
+        <a href="{% url 'toDo:index' %}">목록보기</a>
+
+    </body>
+</html>
