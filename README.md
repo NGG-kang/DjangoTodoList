@@ -20,3 +20,13 @@ setting에 DATABASE에 mysql로 바꾸고, AWS_RDS 주소, 이름 등 넣어줌
 
 리눅스에선  python3 manage.py runserver 0:8000 이렇게 해 줘야 돌아간다
 
+
+
+
+### 해야 할 일
+
+django model 연습
+
+사용자 인증 auth 연습 or 사용법 등 찾아보기
+
+UserForm과 같은 form으로 만드는거 
