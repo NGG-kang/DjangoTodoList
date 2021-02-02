@@ -1,0 +1,7 @@
+<form action="{% url 'toDo:signok' %}" method="POST">
+    {% csrf_token %}
+    <input type="text" name="username"></textarea>
+    <input type="password" name="password"></textarea>
+    <input type="text" name="email" value="test@test.com"></textarea>
+    <input type="submit" value="회원가입"/>
+</form>

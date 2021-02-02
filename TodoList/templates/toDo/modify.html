@@ -5,8 +5,8 @@
         {% if todo %}
         <form action="{% url 'toDo:modifytoDo' todo.id %}" method="POST">
             {% csrf_token %}
-            <textarea name="id">{{ todo.id }}</textarea>
-            <textarea name="toDo">{{ todo.toDo }}</textarea>
+            <div>글번호<div name="id">{{ todo.id }}</div></div>
+            <div>Todo : <input type="text" name="toDo" value="{{ todo.toDo }}"></div>
             <div name="pub_date">{{ todo.pub_date }}</div>
             <div name="author">{{ todo.author }}</div>
             <input type="submit" value="수정" />
@@ -16,6 +16,7 @@
         {% endif %}
         {% endblock %}
         <a href="{% url 'toDo:index' %}">목록보기</a>
+        <a href="{% url 'toDo:detail' todo.id %}">돌아가기</a>
 
     </body>
 </html>

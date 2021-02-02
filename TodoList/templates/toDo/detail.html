@@ -12,7 +12,10 @@
         {% endif %}
         {% endblock %}
         <a href="{% url 'toDo:index' %}">목록보기</a>
+        
+        {% if todo.author == request.user %}
         <a href="{% url 'toDo:modify' todo.id %}">수정하기</a>
         <a href="{% url 'toDo:delete' todo.id %}">삭제하기</a>
+        {% endif %}
     </body>
 </html>

@@ -1,0 +1,7 @@
+<form action="{% url 'toDo:loginok' %}" method="POST"> 
+    {% csrf_token %}
+<input type="text" name="username" />
+<input type="text" name="password" />
+<input type="submit" value="로그인" />
+</form>
+<a href="{% url 'toDo:signview' %}">회원가입</a>

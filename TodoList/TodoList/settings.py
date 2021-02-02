@@ -25,7 +25,10 @@ SECRET_KEY = '2f&v_v$-)dlbiey@u%v5igsgdx#g#r!mv-mjxo29vji(hj8amd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost',
+                 '3.36.68.59',
+                 'ec2-3-36-68-59.ap-northeast-2.compute.amazonaws.com',
+]
 
 
 # Application definition
@@ -76,8 +79,15 @@ WSGI_APPLICATION = 'TodoList.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django_mysql',
+        'USER': 'admin',
+        'PASSWORD': 'skarndrkd',
+        'HOST': 'django-mysql.ceej7pcmvlvh.ap-northeast-2.rds.amazonaws.com',
+        'PORT': '3306',
+        'OPTIONS': {
+            'init_command': 'SET sql_mode="STRICT_TRANS_TABLES"'
+        }
     }
 }
 
@@ -119,3 +129,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+LOGIN_URL = '/loginview'
