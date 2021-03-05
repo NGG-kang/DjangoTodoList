@@ -1,6 +1,9 @@
 # DjangoTodoList
 Django Practice
 
+임의로 만들어 본 Todo리스트 이며 AWS서버로 배포 한게 아닌
+그냥 단순히 파일을 옮겨 AWS에서 개발 서버로 AWS DB에 단순 연결 한 파일입니다
+
 
 Todo리스트로 게시판 형식 만듦
 
