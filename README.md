@@ -30,3 +30,5 @@ django model 연습
 사용자 인증 auth 연습 or 사용법 등 찾아보기
 
 UserForm과 같은 form으로 만드는거 
+
+이 공부는 [DjangoReview](https://github.com/NGG-kang/DjangoReview)로 이어질 예정입니다
